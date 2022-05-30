@@ -7,6 +7,5 @@ class Solution:
                 return add_new(lister)
             else:
                 return(lister[-1])
-        c = add_new(b)
-        return (c)
+        return add_new(b)
 
