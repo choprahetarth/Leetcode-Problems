@@ -1,6 +1,5 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        a = list(range(1,n+1))
         b = [1,1]
         def add_new(lister):
             if len(lister)<=n:
