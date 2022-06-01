@@ -3,8 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        nums1 += nums2
+        count = 0
+        for i in range(m,m+n):
+            nums1[i] = nums2[count]
+            count+=1
         nums1.sort()
-        for i in range(n):
-            nums1.remove(0)
-            
